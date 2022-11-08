@@ -1,0 +1,105 @@
+    Aritimeticos: 
+     5 + 2 = 7 
+     5 - 2 = 2
+     5 * 2 = 10
+     5 /  2  = 2.5
+     5 % 2 = 1
+     5 ** 2 = 25
+    ------------
+    Para mundar a ordem de presendtes 
+    (3 + 5) / 2  -> use sempre os parenteses, se não a conta de divisão será feita primeiro.
+    (5 + 3) / 2 = 4 -> primeiro a soma
+    5 + 3 / 2 = 6.5 -> Primeiro a divisão
+    -------------------------------------
+    Ordem Precedencia
+    () priemiro os parentes 
+    ** Depois as pontencias
+    * / %  Eles possuem a mesma ordem de precedencia (se a caso mais de um deles estiver na mesma expresão  a ordem é para fazer é da esquerda para a direita)
+    + - Por fim as somas e subitraçoes
+    ----------------------------------
+    Atribuição Simples
+    Var a = 5 + 3 = 8
+    var b = a % 5 = 3 -> a é igual a 8  
+    var c = 5 * b ** 2 = 45 -> lembrando que se faz primeiro a potencia
+    var d = 10 - a/2 = 6 -> primeiro fazer a dividido por 2
+    var e = 6 * 2 / d = 2 -> como eles tem a mesma ordem de precedencia faz quem aparecer priemeiro
+    var f = b % e + 4 / e = 3 -> primeiro b % e e depois 4 / e
+    ----------------------------------------------------------
+    Auto-artribuiçoes
+    var n = 3
+    n = n + 4 = 7 -> 4 + 3 = 7 então n agora vale 7
+    n = n - 5 = 2 
+    n = n * 4 -> n vale 8
+    n = n / 2 - > n vale 4 
+    n = n **2 -> n vale 16
+    n = n % 5-> n vale 1 
+    --------------------
+    Simplificand0 
+    var n = 3 
+    n = n + 4 vai ficar n += 4 -> esse mais igual só serve ela + 4
+    n = n - 5 -> n -= 5 
+    n = n * 4 -> n *= 4
+    n = n / 2 - > n /= 2
+    n = n **2 -> n **= 2
+    n = n % 5-> n %= 5
+    ------------------
+    Encremento
+    var x = 5 
+     x = x + 1 -> x agora vale 6 -> x++
+     x = x - 1 -> x agora vale 5  -> x--
+    ------------------------------------
+    Operadores:
+    aritméticos
+    atribuição
+    relacionais
+    lógicos
+    ternário
+    ------------
+    Relacionais
+    > = 2 -> true (maior)
+    < = 4 -> false (menor)
+    >= 8 -> true
+    <= 7 -> false
+    == 5 -> true
+    != 4 -> false
+    -------------
+    Identidade
+    5 == 5 -> true 
+    5 == '5' -> true
+    5 === '5' -> false
+    5 === 5 -> true
+    ---------------
+    Lógicois
+    ! -> negação
+    && -> conjunção
+    || -> disjunção
+
+    ! true -> false
+      false -> true
+
+    true     true -> true
+    true  && false -> false
+    false    true -> false
+    false    false -> false
+
+    true     true -> true
+    true  || false -> true
+    false    true -> true
+    false    false -> false
+
+    priemiro não dps o e dps o ou 
+    -----------------------------
+    Ordem Precedencia (De novo)
+    () ** / 
+    > < >=
+    ! - > não 
+    && - > e
+    || - > ou
+    ---------
+    Ternario
+    ? :
+
+    Teste ? true : false
+    media >= 7.0 ? "Aprovado" : "Reprovado"
+
+    var r = idade >= 18? "MAIOR" : "MENOR"

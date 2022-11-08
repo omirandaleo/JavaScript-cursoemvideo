@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imigração</title>
+</head>
+<body>
+    <h1>Sistema de imigração</h1>
+    Caso, seja do: <input type="text" name="txtIM" id="txtIM"> Km/h
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular() {
+            var txtv = window.document.querySelector('input#txtIM')
+            var res = window.document.querySelector('div#pais')
+            var pais = Number(txtIM.value)
+            res.innerHTML = `<p>Você é ${pais}Brasileiro, Bem-vindo novamente!</p>`
+                if (pais > Brasil) {
+                    res.innerHTML += `<p>Você é <strong>Estrangeiro</strong></p>`
+                }
+                res.innerHTML +=`<p>Bem-vindo ao Brasil!</p>`
+        }
+    </script>
+</body>
+</html>

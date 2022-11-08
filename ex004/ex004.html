@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex004</title>
+    <!-- CSS code-->
+    <style>
+        Body {
+            background-color: #372d66;
+            color: aliceblue;
+            font: 30px Arial;
+        }
+    </style>
+</head>
+<body>
+    <!-- Java Script code-->
+    <script>
+        var nome = window.prompt("Qual é seu nome?")
+        document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br/>`)
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}<br>`)
+        document.write(`Seu noem em minúsculas é ${nome.toLocaleLowerCase()}`)
+    </script>
+    <!--
+     s.length => Quantos caracters a string tem 
+     s.toUpperCase() => Tudo para MAIÚSCULAS
+     s.toLowerCase() => tudo para minusculas
+     ----------------------------------------
+    formatação de números
+    var n1 =1543.5
+    n1.toFixed(2)
+    resopota = 1543.50
+    -----------------------------------------
+     formatação para salário
+     n1.toLocaleString('pt-BR',{style:'currency', currency:'BRL'})
+                                                           'EUR'
+                                                           'USD' 
+    -->
+</body>
+</html>

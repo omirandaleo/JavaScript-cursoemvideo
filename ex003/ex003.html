@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ex003</title>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Passei da maldição, já fiz isso mais de 30 vezes</p>
+
+    <!-- Java script code -->
+
+    <script>
+        let n1 = Number(window.prompt("digite um número: ")); // Para número inteiro usa-se o parseInt 
+        let n2 = Number(window.prompt("Digite outro número: ")); //Pra número inteiro usa-se o parseFloat
+        let s = n1 + n2;
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`); 
+        /* 
+        + pode servir para adição e para concatenação
+        (number + number) = Adição
+        (String + String) = Concatenação
+        -------------------------------------------------
+        De número pra String é só usar o String(n) ou
+        Oque quero converter n.toString() 
+        -------------------------------------------------
+        Var s =`JavaScript`
+        `Eu estou aprendo s` --> Não faz interpolação
+        `Eu estou aprendo` +s --> Usa concatenação
+        `Eu estou aprendendo` ${s} --> Usa template String
+        */ 
+    </script>
+
+</body>
+</html>
